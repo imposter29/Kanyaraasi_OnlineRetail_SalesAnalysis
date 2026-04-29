@@ -1,11 +1,26 @@
-.DS_Store
+Python compiled files
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-*.env
-.venv/
+*.py[cod]
+
+Virtual environment folder, do not commit this, it is large and machine specific
+Anyone can recreate it using pip install -r requirements.txt
 venv/
-*.log
+env/
+.env/
+.venv/
+
+Jupyter auto-generated checkpoint files
+.ipynb_checkpoints/
+
+macOS system files
+.DS_Store
+.AppleDouble
+
+Windows system files
+Thumbs.db
+desktop.ini
+
+Temporary notebook generator scripts used during project setup, not part of the analysis
 create_nb1.py
 create_nb2.py
 create_nb3.py
